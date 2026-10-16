@@ -1,0 +1,734 @@
+{
+  "project": "Four Seasons Residences",
+  "repository": "https://github.com/netzpj-max/FRSBIM4d",
+  "site": "https://netzpj-max.github.io/FRSBIM4d/",
+  "sourceCommit": "e7264438f24598501a7a9ca4ad3737d3d40827cb",
+  "visibility": "public",
+  "date": "2026-10-16",
+  "result": "PASS",
+  "httpAndHashChecks": [
+    {
+      "path": ".gitattributes",
+      "status": 200,
+      "bytes": 37,
+      "sha256": "MATCH"
+    },
+    {
+      "path": ".gitignore",
+      "status": 200,
+      "bytes": 56,
+      "sha256": "MATCH"
+    },
+    {
+      "path": ".nojekyll",
+      "status": 200,
+      "bytes": 0,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/drawing-register.csv",
+      "status": 200,
+      "bytes": 170671,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/drawings.json",
+      "status": 200,
+      "bytes": 3694579,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/elements.csv",
+      "status": 200,
+      "bytes": 10561867,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/elements.json",
+      "status": 200,
+      "bytes": 24439198,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/levels.json",
+      "status": 200,
+      "bytes": 4193,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/project.json",
+      "status": 200,
+      "bytes": 10619,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/quantity-cost.csv",
+      "status": 200,
+      "bytes": 496,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/quantity-cost.json",
+      "status": 200,
+      "bytes": 1608,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/registration.json",
+      "status": 200,
+      "bytes": 59347,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/schedule.csv",
+      "status": 200,
+      "bytes": 288780,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "data/schedule.json",
+      "status": 200,
+      "bytes": 491665,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/01a42d570761.svg",
+      "status": 200,
+      "bytes": 344850,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/02bc7251845b.svg",
+      "status": 200,
+      "bytes": 404181,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/0fa33e05c38c.svg",
+      "status": 200,
+      "bytes": 319030,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/1bf2b7e2dc27.svg",
+      "status": 200,
+      "bytes": 6706,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/20e71ec6b507.svg",
+      "status": 200,
+      "bytes": 406067,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/2552448bdbbd.svg",
+      "status": 200,
+      "bytes": 381834,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/27d85b61cf81.svg",
+      "status": 200,
+      "bytes": 669569,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/2967b11f07f6.svg",
+      "status": 200,
+      "bytes": 376144,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/29eb6cf81804.svg",
+      "status": 200,
+      "bytes": 386145,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/2d7450d5ba6b.svg",
+      "status": 200,
+      "bytes": 220976,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/2f12eff67030.svg",
+      "status": 200,
+      "bytes": 377486,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/33910f14a7be.svg",
+      "status": 200,
+      "bytes": 390703,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/3a80a47c3534.svg",
+      "status": 200,
+      "bytes": 427639,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/3da43f842044.svg",
+      "status": 200,
+      "bytes": 388177,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/43752fc502e1.svg",
+      "status": 200,
+      "bytes": 371669,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/4752c3868893.svg",
+      "status": 200,
+      "bytes": 342217,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/4c622805296d.svg",
+      "status": 200,
+      "bytes": 367386,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/4cd5c67fb067.svg",
+      "status": 200,
+      "bytes": 385373,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/50309cae59c8.svg",
+      "status": 200,
+      "bytes": 355757,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/505587d11438.svg",
+      "status": 200,
+      "bytes": 371060,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/50ade964dfae.svg",
+      "status": 200,
+      "bytes": 387832,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/5ac3492d27c5.svg",
+      "status": 200,
+      "bytes": 255470,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/5b8dedd1e8b8.svg",
+      "status": 200,
+      "bytes": 397706,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/64c096f267e1.svg",
+      "status": 200,
+      "bytes": 368591,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/650a6ac9dfe8.svg",
+      "status": 200,
+      "bytes": 402179,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/6ca441f32924.svg",
+      "status": 200,
+      "bytes": 409796,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/750cd71c4c6f.svg",
+      "status": 200,
+      "bytes": 2535279,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/78254eb7b801.svg",
+      "status": 200,
+      "bytes": 423240,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/7ee980662fac.svg",
+      "status": 200,
+      "bytes": 391204,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/8175472e74ce.svg",
+      "status": 200,
+      "bytes": 352319,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/82300e883866.svg",
+      "status": 200,
+      "bytes": 372401,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/846e3e01cdff.svg",
+      "status": 200,
+      "bytes": 429067,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/878bc03d6809.svg",
+      "status": 200,
+      "bytes": 373782,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/8908055cb0ea.svg",
+      "status": 200,
+      "bytes": 376849,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/929717c65570.svg",
+      "status": 200,
+      "bytes": 980388,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/92d38a7b3a50.svg",
+      "status": 200,
+      "bytes": 412202,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/95850335a6ff.svg",
+      "status": 200,
+      "bytes": 77525,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/9b8c8306a21f.svg",
+      "status": 200,
+      "bytes": 364471,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/9dbcd9cfcaa5.svg",
+      "status": 200,
+      "bytes": 356558,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/a4206c567362.svg",
+      "status": 200,
+      "bytes": 368598,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/a5010bdc479a.svg",
+      "status": 200,
+      "bytes": 348144,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/a947c23d8ac4.svg",
+      "status": 200,
+      "bytes": 404005,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/a9af2c27eeaf.svg",
+      "status": 200,
+      "bytes": 377108,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/ba09d4039f8f.svg",
+      "status": 200,
+      "bytes": 347108,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/bf0333ad7170.svg",
+      "status": 200,
+      "bytes": 387739,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/c01a38744bf5.svg",
+      "status": 200,
+      "bytes": 358100,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/c9e0f55cd328.svg",
+      "status": 200,
+      "bytes": 405514,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/ce6f731e92f6.svg",
+      "status": 200,
+      "bytes": 2507853,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/d1a8ecebce78.svg",
+      "status": 200,
+      "bytes": 69965,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/d55d936cb1ad.svg",
+      "status": 200,
+      "bytes": 321486,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/d7f5a3108548.svg",
+      "status": 200,
+      "bytes": 416351,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/d8d6e8089823.svg",
+      "status": 200,
+      "bytes": 387270,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/dcf046ca65e9.svg",
+      "status": 200,
+      "bytes": 385986,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/de532822e516.svg",
+      "status": 200,
+      "bytes": 245081,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/eab842e60ca0.svg",
+      "status": 200,
+      "bytes": 410908,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/eb9cf93e7219.svg",
+      "status": 200,
+      "bytes": 447130,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/ebae4a88a439.svg",
+      "status": 200,
+      "bytes": 406305,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/f39fe940aee1.svg",
+      "status": 200,
+      "bytes": 366271,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/f5e450bf76dc.svg",
+      "status": 200,
+      "bytes": 294723,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/f62cc907e779.svg",
+      "status": 200,
+      "bytes": 325845,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/f70993854633.svg",
+      "status": 200,
+      "bytes": 435653,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/f84522faa200.svg",
+      "status": 200,
+      "bytes": 346056,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "drawings/previews/fc4cf31c9029.svg",
+      "status": 200,
+      "bytes": 212459,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "hud.css",
+      "status": 200,
+      "bytes": 8635,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "icon.svg",
+      "status": 200,
+      "bytes": 221,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "model/Four-Seasons-Residences_R01.ifc",
+      "status": 200,
+      "bytes": 91139660,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "bytes": 4056,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/assumptions-and-gaps.json",
+      "status": 200,
+      "bytes": 8070,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/browser-qa.json",
+      "status": 200,
+      "bytes": 4801,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/excluded-profiles.json",
+      "status": 200,
+      "bytes": 1101,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/README-TH.md",
+      "status": 200,
+      "bytes": 4056,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/screenshots/09-floating-hud.jpg",
+      "status": 200,
+      "bytes": 107323,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/screenshots/10-hud-selected.jpg",
+      "status": 200,
+      "bytes": 122283,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/screenshots/11-hud-mobile.jpg",
+      "status": 200,
+      "bytes": 31821,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/ui-hud-qa.json",
+      "status": 200,
+      "bytes": 4833,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/ui-theme-qa.json",
+      "status": 200,
+      "bytes": 1654,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "reports/verification.json",
+      "status": 200,
+      "bytes": 4053,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 18001,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "theme-clean.css",
+      "status": 200,
+      "bytes": 8284,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "tools/README-TH.txt",
+      "status": 200,
+      "bytes": 1014,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "tools/rebuild_ifc.py",
+      "status": 200,
+      "bytes": 7688,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "status": 200,
+      "bytes": 38697,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "vendor/THREE-LICENSE.txt",
+      "status": 200,
+      "bytes": 1081,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "status": 200,
+      "bytes": 1405971,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "status": 200,
+      "bytes": 626071,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 37031,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 15407,
+      "sha256": "MATCH"
+    },
+    {
+      "path": "public-manifest.json",
+      "status": 200,
+      "bytes": 17417,
+      "sha256": "MATCH"
+    }
+  ],
+  "verifiedFiles": 102,
+  "elapsedSeconds": 41.28,
+  "counts": {
+    "elements": 14642,
+    "modeledLevels": 73,
+    "assumedActivities": 280,
+    "drawingRegister": 728,
+    "SVGPreviews": 63
+  },
+  "originalDWGsIncluded": false,
+  "deliveryZipIncluded": false,
+  "browserQA": {
+    "result": "PASS",
+    "fixesVerified": [
+      "Immediate on-input name/material saving",
+      "Versioned static assets avoid stale scripts"
+    ],
+    "checks": [
+      {
+        "check": "live model loaded",
+        "subtitle": "14,642 ชิ้นส่วน · 73 ระดับที่สร้าง · 728 DWG · Archicad 26",
+        "visible": "14,642"
+      },
+      {
+        "check": "floor filter and HUD selection",
+        "visible": "204",
+        "id": "FSR-8-A8948F716C",
+        "floor": "L08"
+      },
+      {
+        "check": "isolate",
+        "visible": "1"
+      },
+      {
+        "check": "original DWG omitted as declared",
+        "href": null,
+        "text": "DWG ต้นฉบับอยู่ในชุดส่งมอบภายในเครื่อง"
+      },
+      {
+        "check": "4D playback",
+        "date": "20 พ.ค. 2015"
+      },
+      {
+        "check": "live page",
+        "heading": "ภาพรวมโครงการ",
+        "overflow": false,
+        "page": "page-overview"
+      },
+      {
+        "check": "live page",
+        "heading": "แผนก่อสร้าง 4D",
+        "overflow": false,
+        "page": "page-schedule"
+      },
+      {
+        "check": "live page",
+        "heading": "ปริมาณและต้นทุน",
+        "overflow": false,
+        "page": "page-boq"
+      },
+      {
+        "check": "live page",
+        "heading": "คลังแบบ DWG",
+        "overflow": false,
+        "page": "page-drawings"
+      },
+      {
+        "check": "live page",
+        "heading": "จุดที่ต้องยืนยัน",
+        "overflow": false,
+        "page": "page-issues"
+      },
+      {
+        "check": "live DWG-derived preview",
+        "loaded": true,
+        "src": "drawings/previews/5b8dedd1e8b8.svg"
+      },
+      {
+        "check": "backup export",
+        "project": "Four Seasons Residences",
+        "schema": 1
+      },
+      {
+        "cardClearOfTimeline": true,
+        "check": "live mobile HUD",
+        "overflow": false,
+        "width": 390
+      },
+      {
+        "check": "name edit persists after reload",
+        "savedTitle": "เสา/คอนกรีต · ชั้น 8 [QA]",
+        "expected": "เสา/คอนกรีต · ชั้น 8 [QA]"
+      },
+      {
+        "check": "material edit persists after reload",
+        "material": "คอนกรีต (ต้องยืนยันชนิด/เกรด) [QA]",
+        "expected": "คอนกรีต (ต้องยืนยันชนิด/เกรด) [QA]"
+      }
+    ],
+    "errors": [],
+    "physicalMobile": false
+  },
+  "baselineCommit": "12a46d294d1839fa6cd712e64b452c3d624355f3",
+  "deltaVerifiedFiles": 3,
+  "notes": [
+    "UI data edits are stored in each visitor browser; no shared server database",
+    "IFC and original model quantities unchanged",
+    "No original DWGs or full delivery ZIP included in public repo",
+    "GitHub Pages source: main / root; HTTPS enforced",
+    "Initial 101-file full HTTP/hash pass followed by changed-file verification; 102 current files including manifest verified"
+  ]
+}

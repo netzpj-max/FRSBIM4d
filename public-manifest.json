@@ -416,6 +416,11 @@
       "sha256": "94e81e085e42d047502c8c844bb8bec27fd4acd887ac45f4419a217c448d4c35"
     },
     {
+      "path": "public-deployment.json",
+      "bytes": 17492,
+      "sha256": "98db66d47a15d410ca30b5b23c3b56fb2b6a5ea089a78b6fc068b4d001a28fe2"
+    },
+    {
       "path": "README.md",
       "bytes": 4056,
       "sha256": "609cd16c7a81edbe09535211745e149ef1370b5918b8f3d4626b893a696e647e"
@@ -454,6 +459,16 @@
       "path": "reports/screenshots/11-hud-mobile.jpg",
       "bytes": 31821,
       "sha256": "44cba72dc4e5ff722b45ff562dba46315601f89ce90de837c8d2a9e276591e9e"
+    },
+    {
+      "path": "reports/screenshots/12-public-live.jpg",
+      "bytes": 113126,
+      "sha256": "90d57d670d20c3eeb3574895f9d139f985a93089a4c884d1a5e2816079109c2f"
+    },
+    {
+      "path": "reports/screenshots/13-public-mobile.jpg",
+      "bytes": 31831,
+      "sha256": "871ceb120898b167a8785c2573b2602ccfada4695d336cd8afa8a4c24fc3d003"
     },
     {
       "path": "reports/ui-hud-qa.json",
