@@ -1,0 +1,74 @@
+[
+  {
+    "category": "บันได/ชานพัก",
+    "count": 212,
+    "quantity": 207.301651,
+    "unit": "m³",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 212
+  },
+  {
+    "category": "ประตู",
+    "count": 2360,
+    "quantity": 3941.134192,
+    "unit": "m²",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 2360
+  },
+  {
+    "category": "ผนังภายใน",
+    "count": 1368,
+    "quantity": 1662.655378,
+    "unit": "m³",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 1368
+  },
+  {
+    "category": "ผนังโครงสร้าง",
+    "count": 1089,
+    "quantity": 5021.429795,
+    "unit": "m³",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 1089
+  },
+  {
+    "category": "พื้น",
+    "count": 71,
+    "quantity": 96503.003976,
+    "unit": "m²",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 71
+  },
+  {
+    "category": "หน้าต่าง",
+    "count": 7576,
+    "quantity": 35315.708973,
+    "unit": "m²",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 7576
+  },
+  {
+    "category": "หลังคา",
+    "count": 1,
+    "quantity": 566.439768,
+    "unit": "m²",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 1
+  },
+  {
+    "category": "เสา/คอนกรีต",
+    "count": 1965,
+    "quantity": 12400.139992,
+    "unit": "m³",
+    "unitPrice": null,
+    "knownCost": null,
+    "unpricedCount": 1965
+  }
+]

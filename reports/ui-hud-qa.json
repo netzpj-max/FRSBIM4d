@@ -1,0 +1,196 @@
+{
+  "checks": [
+    {
+      "check": "desktop HUD",
+      "metrics": [
+        "14,642",
+        "73"
+      ],
+      "overflow": false,
+      "panel": "true",
+      "timelineInsideCanvas": true,
+      "width": 1650
+    },
+    {
+      "check": "close panel",
+      "closed": true
+    },
+    {
+      "check": "filtered HUD values",
+      "floor": "L08",
+      "quantity": "6.45 m³ · ประมาณบางส่วน",
+      "selected": "FSR-8-A8948F716C",
+      "visible": "204"
+    },
+    {
+      "check": "top view",
+      "active": true
+    },
+    {
+      "check": "floating timeline playback",
+      "date": "17 พ.ค. 2015"
+    },
+    {
+      "check": "mobile default HUD",
+      "dock": {
+        "bottom": 1045.375,
+        "height": 162.078125,
+        "left": 32,
+        "right": 358,
+        "top": 883.296875,
+        "width": 326,
+        "x": 32,
+        "y": 883.296875
+      },
+      "leftCard": {
+        "bottom": 865.375,
+        "height": 108,
+        "left": 34,
+        "right": 156,
+        "top": 757.375,
+        "width": 122,
+        "x": 34,
+        "y": 757.375
+      },
+      "overflow": false,
+      "panel": "false",
+      "rightCard": {
+        "bottom": 865.375,
+        "height": 108,
+        "left": 234,
+        "right": 356,
+        "top": 757.375,
+        "width": 122,
+        "x": 234,
+        "y": 757.375
+      },
+      "width": 390
+    },
+    {
+      "check": "mobile panel open",
+      "visible": true
+    },
+    {
+      "check": "mobile Escape closes panel",
+      "closed": true
+    },
+    {
+      "check": "source drawing from HUD selection",
+      "dialogVisible": true
+    },
+    {
+      "check": "desktop native fullscreen",
+      "matchesFullscreenPseudoClass": true,
+      "stageWidth": 2560,
+      "stageHeight": 1440,
+      "controlsInsideStage": true
+    }
+  ],
+  "responsive": [
+    {
+      "countCard": {
+        "bottom": 837.5625,
+        "height": 132,
+        "left": 53,
+        "right": 205,
+        "top": 705.5625,
+        "width": 152,
+        "x": 53,
+        "y": 705.5625
+      },
+      "dock": {
+        "bottom": 1011.5625,
+        "height": 145.171875,
+        "left": 53,
+        "right": 700,
+        "top": 866.390625,
+        "width": 647,
+        "x": 53,
+        "y": 866.390625
+      },
+      "overflow": false,
+      "panel": "false",
+      "selectionCard": {
+        "bottom": 837.5625,
+        "height": 132,
+        "left": 548,
+        "right": 700,
+        "top": 705.5625,
+        "width": 152,
+        "x": 548,
+        "y": 705.5625
+      },
+      "width": 768
+    },
+    {
+      "countCard": {
+        "bottom": 681.5625,
+        "height": 132,
+        "left": 246,
+        "right": 381,
+        "top": 549.5625,
+        "width": 135,
+        "x": 246,
+        "y": 549.5625
+      },
+      "dock": {
+        "bottom": 864.5625,
+        "height": 161.578125,
+        "left": 246,
+        "right": 708,
+        "top": 702.984375,
+        "width": 462,
+        "x": 246,
+        "y": 702.984375
+      },
+      "overflow": false,
+      "panel": "true",
+      "selectionCard": {
+        "bottom": 681.5625,
+        "height": 132,
+        "left": 573,
+        "right": 708,
+        "top": 549.5625,
+        "width": 135,
+        "x": 573,
+        "y": 549.5625
+      },
+      "width": 1100
+    }
+  ],
+  "project": "Four Seasons Residences",
+  "revision": "R01",
+  "date": "2026-10-16",
+  "result": "PASS",
+  "referenceVideo": "ac733f0443783dabd596bc87ca44e60b.mp4",
+  "features": [
+    "Floating view and zoom controls",
+    "Live visible-element count and selected-element card",
+    "Floating 4D timeline using existing activity data",
+    "Collapsible floating inspector; closed initially on mobile; Escape closes panel",
+    "Responsive HUD at 390, 768, 1100 and 1650 px widths"
+  ],
+  "additionalChecks": [
+    "JavaScript syntax passed",
+    "All data file hashes unchanged",
+    "IFC hash unchanged",
+    "No warning/error logs observed",
+    "Latest 390 px layout has no horizontal overflow; metric cards do not overlap timeline",
+    "Mobile zoom buttons enlarged to 40x42 px"
+  ],
+  "limits": [
+    "Physical mobile devices not tested",
+    "Native fullscreen visual capture with mobile viewport emulation was unreliable; desktop fullscreen pseudo-class, geometry and HUD containment were confirmed",
+    "Original full functional QA remains in browser-qa.json; this update used targeted HUD checks"
+  ],
+  "sources": [
+    "web/dist/hud.css",
+    "web/dist/app.js",
+    "web/dist/index.html"
+  ],
+  "screenshots": [
+    "screenshots/09-floating-hud.jpg",
+    "screenshots/10-hud-selected.jpg",
+    "screenshots/11-hud-mobile.jpg"
+  ]
+}

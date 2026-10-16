@@ -1,0 +1,38 @@
+{
+  "project": "Four Seasons Residences",
+  "revision": "R01",
+  "date": "2026-10-16",
+  "theme": "Clean Mint",
+  "referenceVideo": "ac733f0443783dabd596bc87ca44e60b.mp4",
+  "result": "PASS",
+  "changes": [
+    "Mint page background, white rounded cards, mint-to-sage gradient buttons",
+    "Neutral gray 3D stage and adjusted display lighting",
+    "Consistent light tables, inputs, library cards, dialogs and status panels"
+  ],
+  "verified": [
+    "JavaScript syntax check passed",
+    "Live browser rendered current theme after reload",
+    "Six desktop pages opened; overview, viewer and schedule screenshots inspected",
+    "Floor L08 filter and element inspector selected FSR-8-A8948F716C",
+    "4D play advanced date from plan start to 20 May 2015; pause and end-date control worked",
+    "Six pages at 390x844 browser viewport had no document horizontal overflow",
+    "No browser warning/error logs observed",
+    "All project data file hashes unchanged",
+    "IFC SHA-256 unchanged"
+  ],
+  "limits": [
+    "Mobile check uses browser viewport emulation, not a physical phone",
+    "Prior 43-check functional QA remains in browser-qa.json; this theme update used the targeted checks listed here"
+  ],
+  "dataFilesChecked": 12,
+  "ifcSha256": "94e81e085e42d047502c8c844bb8bec27fd4acd887ac45f4419a217c448d4c35",
+  "source": "web/dist/theme-clean.css",
+  "backup": "Workspace work/ui-theme-backup-2026-10-16 (outside delivery)",
+  "screenshots": [
+    "screenshots/05-clean-model.jpg",
+    "screenshots/06-clean-overview.jpg",
+    "screenshots/07-clean-schedule.jpg",
+    "screenshots/08-clean-mobile.jpg"
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "project": "Four Seasons Residences",
+  "repository": "netzpj-max/FRSBIM4d",
+  "revision": "R01",
+  "publicSite": "https://netzpj-max.github.io/FRSBIM4d/",
+  "sourceDWGsIncluded": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 37,
+      "sha256": "7a39c3069c41691998a045950d0ab65afd79a0d59ac009949933b4bddb871c4a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 56,
+      "sha256": "722276d4d7c20c88374e88bacb1c109516dc534c199fd4dd09e6027ccc4c0c20"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "app.js",
+      "bytes": 36938,
+      "sha256": "bf7ce07963d09e0d35722b94f20fb2e7a783642d1df0b1840ea06fc0b09e96ba"
+    },
+    {
+      "path": "data/drawing-register.csv",
+      "bytes": 170671,
+      "sha256": "d351d2a2861833d44ef9a0c6a6be5a7db681533a023e41bd0b7e09c2eb62bd4c"
+    },
+    {
+      "path": "data/drawings.json",
+      "bytes": 3694579,
+      "sha256": "c9adde90b51f79c931f37fabeb7479ed4369a66bec683b32b5f7cc1122d31f83"
+    },
+    {
+      "path": "data/elements.csv",
+      "bytes": 10561867,
+      "sha256": "20e97c9a42e6fed8b2babc7ecaf159313a44ffafe3cb5f2de472b5ddba8111b9"
+    },
+    {
+      "path": "data/elements.json",
+      "bytes": 24439198,
+      "sha256": "19d85ca56eb87cd11a261c1540b4accd24121f79210c703051ccd3a20ae8654f"
+    },
+    {
+      "path": "data/levels.json",
+      "bytes": 4193,
+      "sha256": "e2b3bd65c975df56ffb1560f61b050aafcac062940d2231b1cb634541c8dc7cd"
+    },
+    {
+      "path": "data/project.json",
+      "bytes": 10619,
+      "sha256": "68ad404c8fb9f4cc485808ac633af42850fbc6cde332017a60ac1e0211374829"
+    },
+    {
+      "path": "data/quantity-cost.csv",
+      "bytes": 496,
+      "sha256": "d24eaa48bb0794d8e2e5c06d8c2e88b45d5ea7deaa1aa744eae7a12ac759b0f5"
+    },
+    {
+      "path": "data/quantity-cost.json",
+      "bytes": 1608,
+      "sha256": "580acc3ca61396bdaa85240144f17006103c98b5561081824dff8af9ae5d9aa4"
+    },
+    {
+      "path": "data/registration.json",
+      "bytes": 59347,
+      "sha256": "0d53fc5e8f1b9482b9ab1668ce6080063e3d4cde8a6fae74288ca1fbd7bb4272"
+    },
+    {
+      "path": "data/schedule.csv",
+      "bytes": 288780,
+      "sha256": "60aea21ad19eaa27495ff5fb30699ad779bced8a805cc56da3a7c438aef6e341"
+    },
+    {
+      "path": "data/schedule.json",
+      "bytes": 491665,
+      "sha256": "8fef8d334295a1da6b85ee49e8e08917971740ae5aa8718cb185131902f8e87a"
+    },
+    {
+      "path": "drawings/previews/01a42d570761.svg",
+      "bytes": 344850,
+      "sha256": "9c7c3fe690fc189d0f2d5cfe4ba13908527f89853e15b1c0a29b5fd4fb51d529"
+    },
+    {
+      "path": "drawings/previews/02bc7251845b.svg",
+      "bytes": 404181,
+      "sha256": "148584574cddf0049eb208227a5de714d4d45bcc2e9c14faf719145792c5ee1c"
+    },
+    {
+      "path": "drawings/previews/0fa33e05c38c.svg",
+      "bytes": 319030,
+      "sha256": "392395006adacf06dbeb00db11fe4ac640c3eda8b701e0c186d4651fd0b8838a"
+    },
+    {
+      "path": "drawings/previews/1bf2b7e2dc27.svg",
+      "bytes": 6706,
+      "sha256": "57a0af9696a7693670a022acc95e90bf3e8c02768d11adaf6734f42b5d2c2be5"
+    },
+    {
+      "path": "drawings/previews/20e71ec6b507.svg",
+      "bytes": 406067,
+      "sha256": "3e8ea6f18c2c1f4df1118247183abdc14900222397592a858ffc55ac8fb1c731"
+    },
+    {
+      "path": "drawings/previews/2552448bdbbd.svg",
+      "bytes": 381834,
+      "sha256": "a62d11fb9a9211f6f1fdbedc4841e90b6140d47e1d9ce3bf483891b34ab100a9"
+    },
+    {
+      "path": "drawings/previews/27d85b61cf81.svg",
+      "bytes": 669569,
+      "sha256": "9943e5606c13c5d8cd08a7bab952f07e921f89be2b4b96fd1e00af7061317643"
+    },
+    {
+      "path": "drawings/previews/2967b11f07f6.svg",
+      "bytes": 376144,
+      "sha256": "73b13530a405b974129f6eacb0f84465bd39516ea60f7e0d1ed606037af5ba7f"
+    },
+    {
+      "path": "drawings/previews/29eb6cf81804.svg",
+      "bytes": 386145,
+      "sha256": "be2beefbd76440eafc529b009953a3db1f10d9d9b7ea1e6ca23cda5f608e666b"
+    },
+    {
+      "path": "drawings/previews/2d7450d5ba6b.svg",
+      "bytes": 220976,
+      "sha256": "a49cbb3067163262300a2d489bae4fe735f38c86e4be0f5b56f9b143a0c8616c"
+    },
+    {
+      "path": "drawings/previews/2f12eff67030.svg",
+      "bytes": 377486,
+      "sha256": "b681dbf9ee073017e6541e7fc7ac0650f87d7e47acb2a815a5aaabe7ec97a49c"
+    },
+    {
+      "path": "drawings/previews/33910f14a7be.svg",
+      "bytes": 390703,
+      "sha256": "b940c39ab3e61510f6680cfefb04627eeed5173391c86a0df896694b78fd7a43"
+    },
+    {
+      "path": "drawings/previews/3a80a47c3534.svg",
+      "bytes": 427639,
+      "sha256": "60742a43924178a79a4ddc0435aaef65708edcf100457b42fb63793bdfd9a624"
+    },
+    {
+      "path": "drawings/previews/3da43f842044.svg",
+      "bytes": 388177,
+      "sha256": "8b08b285094697c68b8abd8165246fb7db4e4863e2049b88926d2958c9450869"
+    },
+    {
+      "path": "drawings/previews/43752fc502e1.svg",
+      "bytes": 371669,
+      "sha256": "8163a38f478c3a2667da80f6d1d3350db9ca818cdef5c1a0706c376f632775dd"
+    },
+    {
+      "path": "drawings/previews/4752c3868893.svg",
+      "bytes": 342217,
+      "sha256": "dffa29d120a5d8245a810dd1765e23a432b3e786b5dcb03382a3ebdc769aadb8"
+    },
+    {
+      "path": "drawings/previews/4c622805296d.svg",
+      "bytes": 367386,
+      "sha256": "ad3bab6a87c4e0361240927f7a79c70bff57635ad9ec6288b7b0f3e1b1916b1e"
+    },
+    {
+      "path": "drawings/previews/4cd5c67fb067.svg",
+      "bytes": 385373,
+      "sha256": "597b9e4f436c6945f5de1eff58d9e3d49bdb36e8a621a12fdb30dd5992a74850"
+    },
+    {
+      "path": "drawings/previews/50309cae59c8.svg",
+      "bytes": 355757,
+      "sha256": "82455b7ae8e81e329e32b528879ba0450b41816afbfb2655d139f1e340a23c50"
+    },
+    {
+      "path": "drawings/previews/505587d11438.svg",
+      "bytes": 371060,
+      "sha256": "b50c6d0e30fa7ac6e9271c69704f77f868ccfd6921d67edc3a4ae3d36c2566a1"
+    },
+    {
+      "path": "drawings/previews/50ade964dfae.svg",
+      "bytes": 387832,
+      "sha256": "ff4300d0b3be4e9a3076fbe92b457ef25f05dbfc2779fbdbffb1a0524ca5d6b0"
+    },
+    {
+      "path": "drawings/previews/5ac3492d27c5.svg",
+      "bytes": 255470,
+      "sha256": "5cb0e6583aa0e6d903e969a324303ffa55ce198839902b83b8657a5361ef6655"
+    },
+    {
+      "path": "drawings/previews/5b8dedd1e8b8.svg",
+      "bytes": 397706,
+      "sha256": "6fb18cb8066352ca756c0eeebe9265b7dc5e929be5a864c1c76bcdb18a3522e3"
+    },
+    {
+      "path": "drawings/previews/64c096f267e1.svg",
+      "bytes": 368591,
+      "sha256": "714b6a76b178191d55f6a611823d50ede1068242de8028f1f48107a76c2318d3"
+    },
+    {
+      "path": "drawings/previews/650a6ac9dfe8.svg",
+      "bytes": 402179,
+      "sha256": "50e2efe3f56a19ee6a5fdfa084bd80cb7382f51842612f31a1e7fb408ec326c3"
+    },
+    {
+      "path": "drawings/previews/6ca441f32924.svg",
+      "bytes": 409796,
+      "sha256": "b056267730890a34892dea845eb7ef77919fa47878d52e2840239a3cc66fca2a"
+    },
+    {
+      "path": "drawings/previews/750cd71c4c6f.svg",
+      "bytes": 2535279,
+      "sha256": "a3678ff6003e38631009adf9509e4e7118b4f33ad05ae1ab4a490fa91da856f9"
+    },
+    {
+      "path": "drawings/previews/78254eb7b801.svg",
+      "bytes": 423240,
+      "sha256": "9ca727b9056d2600ce25fcf08ba8b8e999520c4fa249d6bfd307b535e0abb453"
+    },
+    {
+      "path": "drawings/previews/7ee980662fac.svg",
+      "bytes": 391204,
+      "sha256": "951cb0934d0784041f6fd2a8197ddd04a71709c7ea4dd2035de7a7e0e91acbac"
+    },
+    {
+      "path": "drawings/previews/8175472e74ce.svg",
+      "bytes": 352319,
+      "sha256": "15f0a30accd5e8f91de8d633b3b909b32a95253deb38ae61cf4881d7045ead55"
+    },
+    {
+      "path": "drawings/previews/82300e883866.svg",
+      "bytes": 372401,
+      "sha256": "c50497990bf575ab2ceee0a7e7e9b1b55e07e5657e3c69d6cc28fd339be328ff"
+    },
+    {
+      "path": "drawings/previews/846e3e01cdff.svg",
+      "bytes": 429067,
+      "sha256": "6c74200cceecb40279c86692848cd315fa03660ad522d3987aaa744eaae76875"
+    },
+    {
+      "path": "drawings/previews/878bc03d6809.svg",
+      "bytes": 373782,
+      "sha256": "1948877bdb9bf388a9b080bd709fb3e02110350caca1a1f21f0068556d15d408"
+    },
+    {
+      "path": "drawings/previews/8908055cb0ea.svg",
+      "bytes": 376849,
+      "sha256": "c48d8ed44c90ae615b4ff66937a6bd05eadfdfaf0c11834961c83e2ca4121d97"
+    },
+    {
+      "path": "drawings/previews/929717c65570.svg",
+      "bytes": 980388,
+      "sha256": "eed5adb223f2e3f4157e9a45da851c8cf12b22820631d8a7d103382178cb0662"
+    },
+    {
+      "path": "drawings/previews/92d38a7b3a50.svg",
+      "bytes": 412202,
+      "sha256": "08c327cf0512cd6bded6a8dc3ffc8de176533e78565e7a0fadfb8ca31d8ecc4c"
+    },
+    {
+      "path": "drawings/previews/95850335a6ff.svg",
+      "bytes": 77525,
+      "sha256": "3630f7a981d258421e09d8fd75bbe9a91577876c954cbf305b6c67343e563c84"
+    },
+    {
+      "path": "drawings/previews/9b8c8306a21f.svg",
+      "bytes": 364471,
+      "sha256": "2d3777c72d0ccee5ec987d127096ea0a9f5cd8ce4a08b758d4e78bf2952976a1"
+    },
+    {
+      "path": "drawings/previews/9dbcd9cfcaa5.svg",
+      "bytes": 356558,
+      "sha256": "21db80cf81db40b72e5d51e59d7fade9c0b560ed6910450e968b42eb54ae632f"
+    },
+    {
+      "path": "drawings/previews/a4206c567362.svg",
+      "bytes": 368598,
+      "sha256": "43c9b19cc3ef4efd573dba17ec1ebaadf5dbdeb842268a97bf798d84105c3827"
+    },
+    {
+      "path": "drawings/previews/a5010bdc479a.svg",
+      "bytes": 348144,
+      "sha256": "46a667b0e78f8f75c4cfdb4ded5bd8e711bd3e5bdeff93857fddba53a3184836"
+    },
+    {
+      "path": "drawings/previews/a947c23d8ac4.svg",
+      "bytes": 404005,
+      "sha256": "1e703f8359a5679006fb0559dd139a4b506d066f9b0957c7ba3eddeee31b24c6"
+    },
+    {
+      "path": "drawings/previews/a9af2c27eeaf.svg",
+      "bytes": 377108,
+      "sha256": "0660c2dadf5b16be63099a31bdff254ed06803ad01408be9a190ebe648269986"
+    },
+    {
+      "path": "drawings/previews/ba09d4039f8f.svg",
+      "bytes": 347108,
+      "sha256": "cad29a3f8c8acec589aacaa2e953d9511eb3b6ed7eebb3d7de5233ebe539e9a7"
+    },
+    {
+      "path": "drawings/previews/bf0333ad7170.svg",
+      "bytes": 387739,
+      "sha256": "ff2efcb68ba29abaa6297561b926e6211ae4d1caf96c4bd067188e316643d378"
+    },
+    {
+      "path": "drawings/previews/c01a38744bf5.svg",
+      "bytes": 358100,
+      "sha256": "c89d5de722962f6da4f2d98b5e127408d355abbcb1944f873ca36fc9f7efd853"
+    },
+    {
+      "path": "drawings/previews/c9e0f55cd328.svg",
+      "bytes": 405514,
+      "sha256": "3960f19d5b708f9254aeb6e5c35575632c26a0af52d140bee539d5d8d15c3a4a"
+    },
+    {
+      "path": "drawings/previews/ce6f731e92f6.svg",
+      "bytes": 2507853,
+      "sha256": "8ada55880ae053af1b5aa5b0c8138185015c0c8ac5f15cce2d59eefb473042a5"
+    },
+    {
+      "path": "drawings/previews/d1a8ecebce78.svg",
+      "bytes": 69965,
+      "sha256": "d1f28e7ecbe3c4e546cee02be64f6c83d980672a7d6b6026479981cda091dba7"
+    },
+    {
+      "path": "drawings/previews/d55d936cb1ad.svg",
+      "bytes": 321486,
+      "sha256": "e090990b769f4d4f7befbcfe8a645bfc5b81142d969bfa2396ae445e4348d8fd"
+    },
+    {
+      "path": "drawings/previews/d7f5a3108548.svg",
+      "bytes": 416351,
+      "sha256": "0e17d816c6e79bd44172a7ddf371d2974cb6ee0e2bb046c5dda28f326211078a"
+    },
+    {
+      "path": "drawings/previews/d8d6e8089823.svg",
+      "bytes": 387270,
+      "sha256": "1eb648aa2a97e63d6e807593d58047e16d118a32627173d1c9726d0079f6fa6b"
+    },
+    {
+      "path": "drawings/previews/dcf046ca65e9.svg",
+      "bytes": 385986,
+      "sha256": "7639f4a8a2162cea243831f2412528c57f59828380da0ca60b2994c3ddf23515"
+    },
+    {
+      "path": "drawings/previews/de532822e516.svg",
+      "bytes": 245081,
+      "sha256": "2c6ff8996bf0478211ea3f2f032b0dd27ebe3762e0744459ea69fbc9b733676a"
+    },
+    {
+      "path": "drawings/previews/eab842e60ca0.svg",
+      "bytes": 410908,
+      "sha256": "17110497b4f2b7aa4c5dea0fadddd7c2304a3dbb2c06812790fbc5238bda52b3"
+    },
+    {
+      "path": "drawings/previews/eb9cf93e7219.svg",
+      "bytes": 447130,
+      "sha256": "9449b707cc46c0cb64382e1f847dfb7f80a2d7bfc92cb50fa86dd451aa0e4921"
+    },
+    {
+      "path": "drawings/previews/ebae4a88a439.svg",
+      "bytes": 406305,
+      "sha256": "9228c7da6a6e0750359725772752b43ac408800c4a8eb7a9fb81f93f487180b9"
+    },
+    {
+      "path": "drawings/previews/f39fe940aee1.svg",
+      "bytes": 366271,
+      "sha256": "a6dd5cf7b7f34950ec910f6b73f133b0dac3ae46d54a0121fee56dcf23d09225"
+    },
+    {
+      "path": "drawings/previews/f5e450bf76dc.svg",
+      "bytes": 294723,
+      "sha256": "ef0fd2702798b5203566b8c699d167729f0568c54c11242c16d7c99d936984ab"
+    },
+    {
+      "path": "drawings/previews/f62cc907e779.svg",
+      "bytes": 325845,
+      "sha256": "3f29b1adccb050c76a78fb45e16ae6640f5ff87d154036138e90a34bcce9686c"
+    },
+    {
+      "path": "drawings/previews/f70993854633.svg",
+      "bytes": 435653,
+      "sha256": "c4ac178c4d45a6508677592448ca8ac1583f2e95ba21ce3e7b54b8f39459f57a"
+    },
+    {
+      "path": "drawings/previews/f84522faa200.svg",
+      "bytes": 346056,
+      "sha256": "52fcf1830aa3e8bb9d9ad0a62944ae9e8cf8bc561a60986b5360fc2e718af382"
+    },
+    {
+      "path": "drawings/previews/fc4cf31c9029.svg",
+      "bytes": 212459,
+      "sha256": "11dead621f765770fe81212c5d82a9b7d88352d545db6063f643c372488d2807"
+    },
+    {
+      "path": "hud.css",
+      "bytes": 8635,
+      "sha256": "683b882fd6d86e6995da04b089287946016dffe895981aacd4bbf0bc3f15c422"
+    },
+    {
+      "path": "icon.svg",
+      "bytes": 221,
+      "sha256": "ce258d22c3bd283836ee3a99b6b485c825f8b6a959d6add02b6ec4e42d030ad5"
+    },
+    {
+      "path": "index.html",
+      "bytes": 15347,
+      "sha256": "6d883be788512410ebcc525a918bf19f36897dd880313bba06fefd8aab35d620"
+    },
+    {
+      "path": "model/Four-Seasons-Residences_R01.ifc",
+      "bytes": 91139660,
+      "sha256": "94e81e085e42d047502c8c844bb8bec27fd4acd887ac45f4419a217c448d4c35"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4056,
+      "sha256": "609cd16c7a81edbe09535211745e149ef1370b5918b8f3d4626b893a696e647e"
+    },
+    {
+      "path": "reports/assumptions-and-gaps.json",
+      "bytes": 8070,
+      "sha256": "7326e16e8ede4d0f9135494d1344a6e979a696da2e0e06b6445a9d7a5de7b923"
+    },
+    {
+      "path": "reports/browser-qa.json",
+      "bytes": 4801,
+      "sha256": "905ed130991c8d9b6c7d4f9dc5c8f61b23653da3b7b08fe575b040795327e7dd"
+    },
+    {
+      "path": "reports/excluded-profiles.json",
+      "bytes": 1101,
+      "sha256": "2fd70580c7779ea9f51ed02efeb76536899b99b6d7f72c2edd01d9065d7012c0"
+    },
+    {
+      "path": "reports/README-TH.md",
+      "bytes": 4056,
+      "sha256": "609cd16c7a81edbe09535211745e149ef1370b5918b8f3d4626b893a696e647e"
+    },
+    {
+      "path": "reports/screenshots/09-floating-hud.jpg",
+      "bytes": 107323,
+      "sha256": "520279033c698bcddccc9bcfa9b4e3b31bb49838dadf95de8e3f833f3b6e5bd3"
+    },
+    {
+      "path": "reports/screenshots/10-hud-selected.jpg",
+      "bytes": 122283,
+      "sha256": "392875512d3e7bca1a5478d1ee1942efea7ac557dd8aabcffd60ead6d208f346"
+    },
+    {
+      "path": "reports/screenshots/11-hud-mobile.jpg",
+      "bytes": 31821,
+      "sha256": "44cba72dc4e5ff722b45ff562dba46315601f89ce90de837c8d2a9e276591e9e"
+    },
+    {
+      "path": "reports/ui-hud-qa.json",
+      "bytes": 4833,
+      "sha256": "6792134928e12d35cd5dc48698b5b3846afd368c8d230693c3c6fe1424ad13ca"
+    },
+    {
+      "path": "reports/ui-theme-qa.json",
+      "bytes": 1654,
+      "sha256": "0c085eeefeb1abb4cd4860058a7fdf280d59d0e11d90ce17c5978d42c95ce112"
+    },
+    {
+      "path": "reports/verification.json",
+      "bytes": 4053,
+      "sha256": "041c5a40bb6a4804dce88c6b3748f04a46f8c6658df4ca3b6f42be60fe942d88"
+    },
+    {
+      "path": "style.css",
+      "bytes": 18001,
+      "sha256": "cca7a4e6cd7156d1895e522acf5560eb4adac9ae1f3be7f6de4ab20ba8d6bfa6"
+    },
+    {
+      "path": "theme-clean.css",
+      "bytes": 8284,
+      "sha256": "0692a3e9db71f866168efd9be7591645d68405d7675abaf976201b6149e4aee4"
+    },
+    {
+      "path": "tools/README-TH.txt",
+      "bytes": 1014,
+      "sha256": "8ba98d8e5b7ed865806c6d0187735bf5d704dde652d06c5ba22dedfaf56d648b"
+    },
+    {
+      "path": "tools/rebuild_ifc.py",
+      "bytes": 7688,
+      "sha256": "b0127c6ac81e4116c10c36a0fa18d352b678299122abf4d76260275e2c5edcb7"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "bytes": 38697,
+      "sha256": "e1cdf5833c6e0aa095bd1a4f67dffe68f35677a992e1fb26fe374b5b759ce267"
+    },
+    {
+      "path": "vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "bytes": 1405971,
+      "sha256": "03fb6e9fa08628385a9096948593251ae473239c7039496d7c280cba73d84631"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 626071,
+      "sha256": "1bb0b770bac5da2b59b21aa5fff4c547eeb864d4e408e4c36fbc6ced1dce0e9e"
+    }
+  ]
+}

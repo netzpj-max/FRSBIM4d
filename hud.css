@@ -1,0 +1,91 @@
+/* Floating model workspace. Controls reuse the original BIM data and actions. */
+.viewer-heading { margin-bottom: 15px; }
+.viewer-layout { display: block; padding: 10px; }
+.viewport-wrap { --hud-panel-space: 0px; height: min(78vh, 880px); min-height: 700px; border-radius: 27px; isolation: isolate; }
+.viewport-wrap.hud-inspector-open { --hud-panel-space: 321px; }
+.viewport-top { left: 25px; right: 25px; top: 23px; z-index: 2; }
+.viewport-top #visibleCount { display: none; }
+.chip { background: #25372c7d; border-color: #ffffff33; border-radius: 10px; }
+.viewport-bottom { top: 120px; bottom: auto; left: 26px; right: auto; z-index: 1; color: #f0f5f1; font-size: 9px; }
+.viewport-bottom .axis { display: none; }
+.hud-view-tools { position: absolute; top: 66px; left: 24px; display: flex; align-items: start; gap: 8px; z-index: 3; }
+.hud-view-tools .segmented { margin: 0; background: #fcfffcf0; border: 1px solid #ffffffa1; padding: 5px; border-radius: 17px; box-shadow: 0 8px 25px #152f2026; backdrop-filter: blur(18px); }
+.hud-view-tools .segmented button { min-height: 35px; padding: 6px 10px; font-size: 10px; }
+.hud-zoom { display: flex; padding: 5px; background: #fcfffcf0; border-radius: 17px; box-shadow: 0 8px 25px #152f2020; }
+.hud-zoom button { border: 0; background: transparent; width: 33px; height: 35px; padding: 0; font-size: 22px; color: #355543; }
+.hud-filter-toggle { position: absolute; top: 23px; right: calc(24px + var(--hud-panel-space)); z-index: 4; background: #fbfffcf2; border-color: #ffffffab; border-radius: 15px; color: #31523c; box-shadow: 0 8px 25px #152f2020; font-size: 11px; min-height: 40px; padding: 8px 12px; }
+.hud-filter-toggle[aria-expanded=true] { background: #d1eddc; }
+.viewport-wrap .inspector { display: none; position: absolute; top: 18px; right: 18px; bottom: 18px; width: 285px; height: auto; max-height: none; min-height: 0; padding: 21px 18px; background: #fdfffdf5; border: 1px solid #ffffffab; border-radius: 24px; z-index: 5; box-shadow: 0 18px 42px #1f35252e; backdrop-filter: blur(20px); overscroll-behavior: contain; scrollbar-width: thin; }
+.hud-inspector-open .inspector { display: block; }
+.panel-heading { align-items: center; margin-bottom: 17px; }
+.panel-heading button { font-size: 12px; padding: 4px; border: 0; width: 30px; min-height: 30px; border-radius: 10px; background: #edf4ee; color: #5c7664; }
+.hud-metrics { position: absolute; inset: auto calc(24px + var(--hud-panel-space)) 196px 24px; display: flex; justify-content: space-between; gap: 15px; z-index: 2; pointer-events: none; }
+.hud-metric { position: relative; width: 152px; min-height: 132px; border: 1px solid #ffffffad; border-radius: 25px; padding: 18px 17px 14px; background: linear-gradient(145deg,#fff,#fff8e7); box-shadow: 0 14px 30px #1d30251f; color: #24372c; text-align: left; line-height: 1.5; backdrop-filter: blur(16px); pointer-events: auto; }
+.hud-metric strong { display: block; font-size: 27px; line-height: 1.2; font-weight: 600; letter-spacing: -1px; padding-right: 8px; }
+.hud-metric > span { display: block; font-size: 10px; font-weight: 600; margin-top: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hud-metric small { display: block; font-size: 8px; line-height: 1.6; color: #64766a; margin-top: 4px; }
+.hud-metric-icon { position: absolute; top: 16px; right: 15px; color: #678e79; font-size: 14px; }
+.hud-selection { background: linear-gradient(145deg,#fff,#d9f0e7); }
+.hud-selection:hover { background: linear-gradient(145deg,#fff,#cce9da); border-color: #fff; transform: translateY(-2px); }
+.viewport-wrap .timeline-card { position: absolute; z-index: 3; left: 24px; right: calc(24px + var(--hud-panel-space)); bottom: 22px; margin: 0; padding: 16px 20px 12px; border-radius: 24px; background: #fafff9eb; border: 1px solid #ffffffb3; box-shadow: 0 12px 35px #183b2526; backdrop-filter: blur(24px); }
+.timeline-title strong { font-size: 19px; margin-top: 3px; }
+.timeline-title .eyebrow { font-size: 8px; letter-spacing: .8px; }
+.play-controls button { width: 40px; min-height: 40px; }
+.play-controls > span { min-width: 87px; font-size: 11px; }
+.play-controls select { font-size: 10px; }
+#time { margin-top: 12px; height: 15px; }
+.timeline-labels { font-size: 8px; margin-top: 2px; }
+.status-legend { gap: 12px; }
+.timeline-card > .micro { margin-top: 8px; font-size: 8px; }
+#modelEmpty { z-index: 4; inset: 32% calc(16px + var(--hud-panel-space)) auto 16px; margin: auto; max-width: 330px; }
+.viewport-wrap:fullscreen { height: 100vh; min-height: 0; border-radius: 0; }
+.viewport-wrap:fullscreen .exit-fullscreen { right: calc(24px + var(--hud-panel-space)); top: 72px; z-index: 4; }
+@media(min-width:1750px) { .viewport-wrap .inspector { width: 305px; padding: 23px; }.viewport-wrap.hud-inspector-open { --hud-panel-space: 341px; } }
+@media(max-width:1200px) and (min-width:901px) {
+  .hud-view-tools { gap: 6px; }.hud-view-tools .segmented button { padding: 6px 7px; font-size: 9px; }.hud-zoom { flex-direction: column; }
+  .hud-metrics { bottom: 205px; }.hud-metric { width: 135px; }
+  .play-controls { gap: 5px; flex-wrap: wrap; justify-content: end; max-width: 180px; }.play-controls > span { min-width: 0; }
+  .timeline-labels .status-legend { position: static; flex-wrap: wrap; justify-content: center; gap: 3px 6px; }
+}
+@media(max-width:900px) {
+  .viewport-wrap { min-height: 680px; height: 76vh; }
+  .hud-view-tools .segmented button { font-size: 10px; padding: 6px 8px; }
+  .viewport-wrap.hud-inspector-open { --hud-panel-space: 0px; }
+  .viewport-wrap .inspector { width: min(310px, calc(100% - 36px)); }
+  .hud-filter-toggle { right: 24px; }.hud-inspector-open .hud-filter-toggle { visibility: hidden; }
+}
+@media(max-width:650px) {
+  .viewer-layout { padding: 6px; border-radius: 27px; }
+  .viewport-wrap { min-height: 650px; height: 78vh; max-height: 820px; border-radius: 22px; }
+  .viewport-top { left: 15px; top: 17px; right: 15px; }
+  .hud-filter-toggle { top: 14px; right: 14px; padding: 8px 10px; font-size: 10px; min-height: 37px; border-radius: 13px; }
+  .hud-filter-toggle span { font-size: 9px; }
+  .hud-view-tools { top: 66px; left: 14px; right: 14px; gap: 6px; }
+  .hud-view-tools .segmented { border-radius: 14px; flex: 1; justify-content: space-between; }
+  .hud-view-tools .segmented button { min-height: 34px; padding: 5px 7px; font-size: 9px; }
+  .hud-zoom { border-radius: 14px; padding: 5px 3px; }.hud-zoom button { width: 27px; height: 34px; }
+  .viewport-bottom { left: 16px; top: 123px; font-size: 8px; }.viewport-bottom > div:last-child { max-width: none; text-align: left; }
+  .hud-metrics { left: 14px; right: 14px; bottom: 194px; gap: 10px; }
+  .hud-metric { width: 122px; min-height: 108px; border-radius: 20px; padding: 14px 12px 11px; }
+  .hud-metric strong { font-size: 23px; }.hud-metric > span { font-size: 9px; margin-top: 10px; }.hud-metric small { font-size: 7px; }.hud-metric-icon { top: 13px; right: 10px; font-size: 11px; }
+  .viewport-wrap .timeline-card { left: 12px; right: 12px; bottom: 14px; padding: 14px 13px 11px; border-radius: 21px; }
+  .timeline-title { gap: 7px; }.timeline-title strong { font-size: 16px; white-space: nowrap; }.timeline-title .eyebrow { font-size: 7px; letter-spacing: 0; }
+  .play-controls { max-width: 140px; gap: 5px; }.play-controls button { min-height: 34px; width: 34px; padding: 5px; }.play-controls select { width: 93px; padding: 6px 4px; font-size: 9px; }.play-controls > span { font-size: 9px; min-width: 0; }
+  .timeline-labels { margin-bottom: 23px; }.status-legend { top: 19px; gap: 10px; font-size: 7px; }
+  .timeline-card > .micro { font-size: 7px; line-height: 1.5; margin-top: 4px; }
+  .viewport-wrap .inspector { padding: 18px 16px; top: 12px; right: 12px; bottom: 12px; width: calc(100% - 24px); max-width: 330px; border-radius: 21px; }
+  .hud-inspector-open .hud-view-tools, .hud-inspector-open .hud-metrics { visibility: hidden; }
+  .viewport-wrap:fullscreen .exit-fullscreen { right: 14px; top: 118px; font-size: 10px; }
+}
+@media(prefers-reduced-motion:reduce) { .hud-selection:hover { transform: none; } }
+@media(max-width:650px) {
+  .hud-view-tools .segmented button { min-height: 40px; min-width: 40px; }
+  .hud-zoom { position: absolute; top: 66px; left: 0; flex-direction: column; padding: 3px; }
+  .hud-zoom button { width: 40px; height: 42px; }
+  .viewport-bottom { display: none; }
+  .hud-filter-toggle { min-height: 42px; }
+  .panel-heading button { width: 40px; min-height: 40px; }
+  .play-controls button { min-height: 40px; width: 40px; }
+  .play-controls select { min-height: 40px; }
+  #time { height: 24px; margin-top: 8px; }
+}

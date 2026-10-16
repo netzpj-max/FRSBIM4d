@@ -1,0 +1,217 @@
+{
+  "project": "Four Seasons Residences",
+  "browser": "Microsoft Edge / Playwright isolated context",
+  "checks": [
+    {
+      "name": "3D model renders actual elements",
+      "passed": true,
+      "detail": {
+        "elements": 14642,
+        "visible": 14642,
+        "triangles": 197308
+      }
+    },
+    {
+      "name": "Orbit drag changes camera",
+      "passed": true
+    },
+    {
+      "name": "Wheel zoom changes distance",
+      "passed": true
+    },
+    {
+      "name": "Right drag pans target",
+      "passed": true
+    },
+    {
+      "name": "Floor filter isolates L08",
+      "passed": true,
+      "detail": {
+        "count": 204
+      }
+    },
+    {
+      "name": "Code and category search isolate element",
+      "passed": true
+    },
+    {
+      "name": "Actual mesh click selects correct stable ID",
+      "passed": true
+    },
+    {
+      "name": "Inspector shows material quantity confidence and source",
+      "passed": true
+    },
+    {
+      "name": "Drawing source dialog opens",
+      "passed": true
+    },
+    {
+      "name": "DWG-derived drawing preview loads",
+      "passed": true
+    },
+    {
+      "name": "Referenced original DWG downloads",
+      "passed": true
+    },
+    {
+      "name": "Hide selected removes visibility",
+      "passed": true
+    },
+    {
+      "name": "Show all restores filtered element",
+      "passed": true
+    },
+    {
+      "name": "Isolate selected retains one part",
+      "passed": true
+    },
+    {
+      "name": "Overall view and filters restore full model",
+      "passed": true
+    },
+    {
+      "name": "Plan starts at zero percent",
+      "passed": true
+    },
+    {
+      "name": "Play pause and speed move timeline",
+      "passed": true
+    },
+    {
+      "name": "Plan end reaches 100 percent",
+      "passed": true
+    },
+    {
+      "name": "Missing prices remain unspecified",
+      "passed": true
+    },
+    {
+      "name": "Unit price saves and subtotal computes",
+      "passed": true
+    },
+    {
+      "name": "BOQ CSV exports stable ID and user price",
+      "passed": true
+    },
+    {
+      "name": "Schedule duration edits persist",
+      "passed": true
+    },
+    {
+      "name": "Backup JSON contains project and edits",
+      "passed": true
+    },
+    {
+      "name": "Reload preserves metadata price and schedule",
+      "passed": true
+    },
+    {
+      "name": "Reset cancel retains data",
+      "passed": true
+    },
+    {
+      "name": "Reset confirmation clears only saved overrides",
+      "passed": true
+    },
+    {
+      "name": "Import backup restores edits",
+      "passed": true
+    },
+    {
+      "name": "Wrong project backup is rejected without clearing state",
+      "passed": true
+    },
+    {
+      "name": "Dashboard distinguishes planned from actual",
+      "passed": true
+    },
+    {
+      "name": "Drawing search finds actual source",
+      "passed": true
+    },
+    {
+      "name": "Unsupported DWG browser display is clearly labelled",
+      "passed": true
+    },
+    {
+      "name": "Assumptions include vertical conflicts and Archicad limits",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen control enters fullscreen",
+      "passed": true
+    },
+    {
+      "name": "QA changes removed from isolated browser context",
+      "passed": true
+    },
+    {
+      "name": "Mobile responsive viewer",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "Mobile responsive overview",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "Mobile responsive schedule",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "Mobile responsive boq",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "Mobile responsive drawings",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "Mobile responsive issues",
+      "passed": true,
+      "detail": {
+        "body": 390,
+        "viewport": 390
+      }
+    },
+    {
+      "name": "Mobile backup controls remain available",
+      "passed": true
+    },
+    {
+      "name": "No browser runtime errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No failed local resource requests",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "networkErrors": [],
+  "physicalMobileTest": false,
+  "result": "PASS",
+  "elementCount": 14642
+}

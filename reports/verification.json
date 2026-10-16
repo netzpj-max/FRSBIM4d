@@ -1,0 +1,155 @@
+{
+  "project": "Four Seasons Residences",
+  "revision": "R01",
+  "result": "PASS",
+  "counts": {
+    "elements": 14642,
+    "storeys": 73,
+    "activities": 280,
+    "dwgFiles": 728,
+    "dwgReadable": 727
+  },
+  "checks": [
+    {
+      "name": "Unique element IDs and IFC GUIDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every element links to known source and task",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every element assigned to exactly one 4D activity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No actual progress invented",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Schedule has only known predecessors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4D graph is acyclic",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Durations and start/end agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Tasks start after predecessors finish",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Model profiles valid and gross volume recomputes",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Prices initially unknown",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All 728 original DWG files in register",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Original DWG bytes match initial restored snapshot",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Packaged original DWG hashes match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Every referenced drawing has web preview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Project names and export branding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "IFC2x3 schema attribute validation",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "IFC element count and stable IDs agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "IFC project name",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "IFC metres and storeys",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Every IFC element tessellates",
+      "passed": true,
+      "detail": {
+        "count": 14642,
+        "missing": []
+      }
+    },
+    {
+      "name": "IFC shape bounds agree with model in metres",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "IFC shape volumes agree with gross model quantities",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "ifcSchema": "IFC2X3",
+  "ifcSha256": "94e81e085e42d047502c8c844bb8bec27fd4acd887ac45f4419a217c448d4c35",
+  "geometryValidationSeconds": 10.99,
+  "archicad26_actual_open_test": false,
+  "archicad26_test_limitation": "Computer Use app approval timed out; no Archicad import was completed.",
+  "nativePLN_created": false,
+  "physicalDeviceTest": false,
+  "MVD_certification": false,
+  "original_restoration_event": {
+    "file": "AR-8-22/AR-RE_A-1_Floor Plan/CAD/AR-RE_A-1-01 Rev.7.dwg",
+    "detail": "An early console test saved this original unintentionally. It was restored from its .bak before the all-file hash snapshot. Restored DWG and backup had the same SHA256. All subsequent engine work used copies.",
+    "restoredSha256": "7d9f9f41f47b4857b1664924d0e0595201ed069d5ffc89a5d1c447024bd7afac"
+  },
+  "limits": [
+    "Temporary vertical datum conflicts remain unresolved",
+    "Gross review geometry only; no opening deductions",
+    "Only explicit modeled scope; not Full BIM",
+    "No actual site progress or prices supplied"
+  ],
+  "browserQA": {
+    "result": "PASS",
+    "checks": 43,
+    "runtimeErrors": 0,
+    "networkErrors": 0,
+    "desktop": true,
+    "mobileEmulation": true,
+    "physicalMobile": false
+  }
+}
